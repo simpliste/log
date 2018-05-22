@@ -1,0 +1,23 @@
+{
+    "name": "simpliste/log",
+    "description": "Implementation of the LoggerAwareInterface",
+    "homepage": "https://github.com/simpliste",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ard-Jan Nijland"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "psr/log": "^1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Simpliste\\Log\\": "src/"
+        }
+    }
+}
