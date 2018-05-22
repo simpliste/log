@@ -1,6 +1,11 @@
 simpliste/log
 =============
 
+[![Build Status](https://travis-ci.org/simpliste/log.svg?branch=master)](https://travis-ci.org/simpliste/log)
+[![Code Coverage](https://codecov.io/gh/simpliste/log/branch/master/graph/badge.svg)](https://codecov.io/gh/simpliste/log)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/simpliste/log/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/simpliste/log/?branch=master)
+[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE)
+
 > LoggerAwareTrait implementation of the LoggerAwareInterface.
 
 With the LoggerAwareTrait you can use log functions without knowing or the logger is set. When the logger is not set a NullLogger is returned so that the code does not break. 
