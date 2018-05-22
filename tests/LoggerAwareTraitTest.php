@@ -18,7 +18,7 @@ class LoggerAwareTraitTest extends TestCase
      *
      * @return void
      */
-    public function testGetLogger(): void
+    public function testGetLogger()
     {
         /** @var LoggerInterface $loggerMock */
         $loggerMock = $this->getMockBuilder(LoggerInterface::class)->getMock();
